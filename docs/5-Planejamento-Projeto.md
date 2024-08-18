@@ -61,10 +61,10 @@ Para começar, crie um quadro Kanban no Trello. Siga estas etapas:
   **OBS: a coluna IMPLANTAR não é importante para o contexto do Trabalho Interdisciplinar, por isso ela NÃO deve estar presente no seu Quadro. 
   
   **Exemplo do um Kanban**:
- 
- ![Exemplo de Kaban](./images/kanbam)
 
-Fonte: [http://www.sindicontitajai.org.br/noticias-empresariais/kanban-como-utilizar-para-gerenciar-diversos-projetos]
+ <p align="center"><img src="./images//kanban-quadro-rais.png" alt="kanan" style="width:700px;"/></p>
+
+<p align="center">Fonte: [http://www.sindicontitajai.org.br/noticias-empresariais/kanban-como-utilizar-para-gerenciar-diversos-projetos] </p>
 
 3. Cartões: Dentro de cada lista, adicione cartões para representar as tarefas individuais que precisam ser realizadas durante a sprint.
 4. Detalhes das Tarefas: Em cada cartão, adicione detalhes como descrição da tarefa, responsável, prazo e qualquer informação relevante.
