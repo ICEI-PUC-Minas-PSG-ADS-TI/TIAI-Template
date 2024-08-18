@@ -52,6 +52,21 @@ Legenda:
 - ❌: não iniciado
 
 
+Outra maneira que pode ser utilizada para facilitar o planejamento das tarefas, recomenda-se a utilização da ferramenta Trello ([https://trello.com]). O Trello é uma plataforma intuitiva e eficiente para gerenciar tarefas e projetos de forma colaborativa.
+
+Para começar, crie um quadro Kanban no Trello. Siga estas etapas:
+1. Crie um Quadro: No Trello, crie um novo quadro para a sua sprint.
+2. Listas do Quadro: Divida o quadro em listas que representem os estágios do fluxo de trabalho, como "A Fazer", "Desenvolver", "Fila para Teste", “Teste” e “Feito”.  
+  
+  **OBS: a coluna IMPLANTAR não é importante para o contexto do Trabalho Interdisciplinar, por isso ela NÃO deve estar presente no seu Quadro. 
+
+Fonte: [http://www.sindicontitajai.org.br/noticias-empresariais/kanban-como-utilizar-para-gerenciar-diversos-projetos]
+
+3. Cartões: Dentro de cada lista, adicione cartões para representar as tarefas individuais que precisam ser realizadas durante a sprint.
+4. Detalhes das Tarefas: Em cada cartão, adicione detalhes como descrição da tarefa, responsável, prazo e qualquer informação relevante.
+5. Priorização: Priorize as tarefas dentro de cada lista, colocando as mais importantes no topo. Movimentação de Cartões: Conforme o trabalho avança, mova os cartões entre as listas para refletir seu progresso.
+6. Revisão Diária: Faça revisões regulares do quadro Kanban durante a sprint para acompanhar o progresso e ajustar as prioridades, se necessário. 
+
 
 ## Links Úteis
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
