@@ -59,6 +59,10 @@ Para começar, crie um quadro Kanban no Trello. Siga estas etapas:
 2. Listas do Quadro: Divida o quadro em listas que representem os estágios do fluxo de trabalho, como "A Fazer", "Desenvolver", "Fila para Teste", “Teste” e “Feito”.  
   
   **OBS: a coluna IMPLANTAR não é importante para o contexto do Trabalho Interdisciplinar, por isso ela NÃO deve estar presente no seu Quadro. 
+  
+  **Exemplo do um Kanban**:
+ 
+ ![Exemplo de Kaban](./images/kanbam)
 
 Fonte: [http://www.sindicontitajai.org.br/noticias-empresariais/kanban-como-utilizar-para-gerenciar-diversos-projetos]
 
