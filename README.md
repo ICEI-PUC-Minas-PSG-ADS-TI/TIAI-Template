@@ -8,6 +8,8 @@
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
+ODS Alinhados:
+
 ## Integrantes
 
 * Nome completo do aluno 1
