@@ -9,7 +9,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Histórias de Usuários
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-# 1) Modifique o Quadro abaixo e insira as histórias de usuários para o seu projeto:
+## 1) Modifique o Quadro abaixo e insira as histórias de usuários para o seu projeto:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
@@ -45,7 +45,7 @@ Cada história do usuário é dividida em tarefas específicas para implementaç
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
 
-# 3) Modifique os Quadros abaixo e insira os Requisitos Funcionais e Não Funcionais para o seu projeto:
+## 3) Modifique os Quadros abaixo e insira os Requisitos Funcionais e Não Funcionais para o seu projeto:
 
 ### Requisitos Funcionais
 
@@ -77,7 +77,7 @@ Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
 todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
-# 4) Modifique os Quadros abaixo e insira as Restrições para o seu projeto:
+## 4) Modifique os Quadros abaixo e insira as Restrições para o seu projeto:
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
