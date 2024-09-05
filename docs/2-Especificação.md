@@ -40,7 +40,6 @@ Cada história do usuário é dividida em tarefas específicas para implementaç
 
 ## 2) Para cada história do usuário o grupo deverá criar as tarefas técnicas conforme o exemplo acima.  
 
-
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
@@ -77,7 +76,10 @@ Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
 todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
+
 ## 4) Modifique os Quadros abaixo e insira as Restrições para o seu projeto:
+
+
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
