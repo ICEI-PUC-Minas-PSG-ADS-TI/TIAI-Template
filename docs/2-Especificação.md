@@ -7,15 +7,15 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Histórias de Usuários
+Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+# 1) Modifique o Quadro abaixo e insira as histórias de usuários para o seu projeto:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
@@ -25,10 +25,27 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 
+## Tarefas Técnicas (Tasks)
+
+Cada história do usuário é dividida em tarefas específicas para implementação, confome o exemplo abaixo:
+
+# História de Usuário: 
+                     Como cliente, eu quero fazer login no sistema para acessar meu perfil.
+
+# As tarefas técnicas referente a história podem ser:
+                   Criar a interface de login: Implementar a página com os campos de nome de usuário e senha.
+                   Criar validação de entradas: Implementar a verificação de que o usuário inseriu o nome e a senha corretos.
+                   Tratar erros de login: Implementar a lógica que exibe mensagens de erro caso nome e senha incorretos.
+
+
+## 2) Para cada história do usuário o grupo deverá criar as tarefas técnicas conforme o exemplo acima.  
+
 
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+
+# 3) Modifique os Quadros abaixo e insira os Requisitos Funcionais e Não Funcionais para o seu projeto:
 
 ### Requisitos Funcionais
 
@@ -55,10 +72,12 @@ Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Cla
   correspondem a uma característica técnica, seja de usabilidade,
   desempenho, confiabilidade, segurança ou outro (ex: suporte a
   dispositivos iOS e Android).
+
 Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
 todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
+# 4) Modifique os Quadros abaixo e insira as Restrições para o seu projeto:
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
