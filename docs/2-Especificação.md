@@ -29,10 +29,10 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 Cada história do usuário é dividida em tarefas específicas para implementação, confome o exemplo abaixo:
 
-# História de Usuário: 
+## História de Usuário: 
                      Como cliente, eu quero fazer login no sistema para acessar meu perfil.
 
-# As tarefas técnicas referente a história podem ser:
+## As tarefas técnicas referente a história podem ser:
                    Criar a interface de login: Implementar a página com os campos de nome de usuário e senha.
                    Criar validação de entradas: Implementar a verificação de que o usuário inseriu o nome e a senha corretos.
                    Tratar erros de login: Implementar a lógica que exibe mensagens de erro caso nome e senha incorretos.
