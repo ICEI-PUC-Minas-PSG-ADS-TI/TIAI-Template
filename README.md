@@ -32,7 +32,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/2-Planejamento-Projeto.md"> Planejamento do Projeto</a></li>
 <li><a href="docs/3-Especificação.md"> Especificação do Projeto</a></li>
 <li><a href="docs/4-Projeto-Solucao.md"> Projeto da solução</a></li>
-<li><a href="docs/5-5-Interface-Sistema.md"> Interface do Sistema</a></li>
+<li><a href="docs/5-Interface-Sistema.md"> Interface do Sistema</a></li>
 <li><a href="docs/6-Conclusão.md"> Conclusão</a></li>
 <li><a href="docs/7-Referências.md"> Referências</a></li>
 </ol>
