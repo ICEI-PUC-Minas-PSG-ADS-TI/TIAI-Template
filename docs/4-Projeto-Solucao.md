@@ -82,7 +82,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 Insira aqui o script de criação das tabelas do banco de dados.
 
-**OBS:** Se o aluno utilizar BD NoSQL, ele derá incluir o script aqui também. 
+> **OBS:** Se o aluno utilizar BD NoSQL, ele derá incluir o script aqui também. 
 
 Veja um exemplo:
 
