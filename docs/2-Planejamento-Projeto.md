@@ -4,7 +4,7 @@ Esta seção apresenta como o grupo organizou o trabalho ao longo do semestre, c
 
 ---
 
-## 2.2 Sprints do Projeto 
+## 2.1 Sprints do Projeto 
 
 O projeto será realizado em **4 sprints**, cada uma com foco específico:
 
@@ -37,9 +37,9 @@ Durante o projeto, um integrante será escolhido como **Líder do Grupo** em cad
 > ✏️ _Se necessário podem alterar os papéis em CADA Sprint, mas você deverá informar repetindo o quadro anterior e separar por Sprint_
 ---
 
-## 2.3 Planejamento de Sprints – Projeto de Extensão Universitária
+## 2.2 Planejamento de Sprints – Projeto de Extensão Universitária
 
-## 2.3.1 Quadro de Tarefas (Kanban do GitHub)
+## 2.2.1 Quadro de Tarefas (Kanban do GitHub)
 
 A divisão de tarefas e o acompanhamento da execução serão feitos utilizando o **Kanban do GitHub**, já disponível na aba **Projects** do repositório (template-base).  
 O quadro está organizado em colunas que representam as etapas do fluxo de trabalho:
@@ -66,7 +66,7 @@ O quadro está organizado em colunas que representam as etapas do fluxo de traba
 
 ---
 
-## 2.3.1.1 Modelo de Sprint: 4 Kanbans no template-base (Kanban do GitHub)
+## 2.2.1.1 Modelo de Sprint: 4 Kanbans no template-base (Kanban do GitHub)
 
 Recomenda-se criar **um board (Kanban) para cada sprint** no repositório template, assim cada aluno recebe os 4 quadros prontos ao clonar o repositório via GitHub Classroom.
 
@@ -82,7 +82,7 @@ Recomenda-se criar **um board (Kanban) para cada sprint** no repositório templa
 
 ---
 
-## 2.3.2 Quadro de Tarefas (Kanban dentro deste documento)
+## 2.2.2 Quadro de Tarefas (Kanban dentro deste documento)
 _O grupo poderá usar esta parte para informar a professora quais tarefas estão sendo desenvolvidas, caso não tenham gostado de utilizar o Kanban do GitHub._
 
 ### 📋 Legenda para o Status do Quadro de Tarefas
