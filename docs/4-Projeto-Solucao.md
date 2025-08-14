@@ -74,20 +74,21 @@ O desenvolvimento deve seguir **três etapas**:
 
 ---
 
-### 4.4.1 Modelo ER
+### 4.4.1 Diagrama Entidade-Relacionamento (DER)
 
-O **Modelo Entidade-Relacionamento (ER)** descreve as entidades, atributos e relacionamentos do sistema.  
+O **Diagrama Entidade-Relacionamento (DER)** descreve as entidades, atributos e relacionamentos do sistema.  
 Utilize a ferramenta **[BR Modelo Web](https://www.brmodeloweb.com/lang/pt-br/index.html)** para criar o diagrama.
 
 **Orientações:**
 - Todas as entidades devem possuir chave primária.
 - Relacionamentos devem estar corretamente cardinalizados.
-- O modelo deve contemplar todas as funcionalidades levantadas nos processos de negócio.
+- O diagrama deve contemplar todas as funcionalidades levantadas nos processos de negócio.
+
+**Exemplo de imagem:**
+![Diagrama ER - Exemplo](./images/DER.png)
 
 📌 **Entrega:** gere o diagrama no BR Modelo, exporte em **.png** e inclua-o nesta seção.
 
-**Exemplo de imagem:**
-![Modelo ER - Exemplo](./images/modeloER-exemplo.png)
 
 ---
 
@@ -104,7 +105,7 @@ Utilize o **[MySQL Workbench](https://www.mysql.com/products/workbench/)** para 
 📌 **Entrega:** exporte o diagrama do Workbench e adicione a imagem aqui.
 
 **Exemplo de imagem:**
-![Esquema Relacional - Exemplo](./images/esquemaRelacional-exemplo.png)
+![Esquema Relacional - Exemplo](./images/TabelasBD.png)
 
 ---
 
@@ -131,4 +132,44 @@ CREATE TABLE Consulta (
     PacCodigo INT,
     Data DATE,
     FOREIGN KEY (MedCodigo) REFERENCES Medico(MedCodigo),
-    FOREIGN KEY (PacCodigo) REFERENCES Pac
+    FOREIGN KEY (PacCodigo) REFERENCES Paciente(PacCodigo)
+);
+
+CREATE TABLE Medicamento (
+    MdcCodigo INT PRIMARY KEY,
+    MdcNome VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Prescricao (
+    ConCodigo INT,
+    MdcCodigo INT,
+    Posologia VARCHAR(200),
+    PRIMARY KEY (ConCodigo, MdcCodigo),
+    FOREIGN KEY (ConCodigo) REFERENCES Consulta(ConCodigo),
+    FOREIGN KEY (MdcCodigo) REFERENCES Medicamento(MdcCodigo)
+);
+```
+## 📌ATENÇÃO: salvar como banco.sql na pasta src/bd
+
+---
+### 4.4.4 Banco de Dados NoSQL (Opcional)
+
+> **Atenção:** Preencha esta seção **somente se o seu projeto utilizar Banco de Dados NoSQL**.
+
+Se o projeto adotar NoSQL, a entrega deve incluir:
+
+#### 1. Modelo de Coleções / Documentos
+- Descreva como os dados serão organizados em **coleções, documentos ou grafos**.  
+
+#### 2. Exemplos de Documentos / Registros
+- Mostre exemplos reais de dados para cada coleção ou entidade.  
+
+```json
+{
+  "_id": "1",
+  "nome": "Juliana",
+  "email": "juliana@email.com",
+  "perfil": "admin"
+}
+```
+📌 **Entrega:** Inclua aqui os scripts utilizados para criar coleções e inserir dados.
