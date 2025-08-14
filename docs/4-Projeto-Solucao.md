@@ -85,6 +85,7 @@ Utilize a ferramenta **[BR Modelo Web](https://www.brmodeloweb.com/lang/pt-br/in
 - O diagrama deve contemplar todas as funcionalidades levantadas nos processos de negócio.
 
 **Exemplo de imagem:**
+
 ![Diagrama ER - Exemplo](./images/DER.png)
 
 📌 **Entrega:** gere o diagrama no BR Modelo, exporte em **.png** e inclua-o nesta seção.
@@ -105,6 +106,7 @@ Utilize o **[MySQL Workbench](https://www.mysql.com/products/workbench/)** para 
 📌 **Entrega:** exporte o diagrama do Workbench e adicione a imagem aqui.
 
 **Exemplo de imagem:**
+
 ![Esquema Relacional - Exemplo](./images/TabelasBD.png)
 
 ---
