@@ -1,177 +1,198 @@
+
 # 4. Projeto da Solução
 
-<span style="color:red">Pré-requisitos: <a href="03-Modelagem do Processo de Negocio.md"> Modelagem do Processo de Negocio</a></span>
+> ⚠️ **Aviso aos Squads (Software House)**
+>
+> Esta seção **não deve ser preenchida integralmente antes da codificação**.
+> Trata-se de um **Documento Vivo**, que deverá ser atualizado **incrementalmente a cada Sprint**, refletindo fielmente o código real implementado.
 
 ---
-**ARQUITETURA DO SOFTWARE**
-## 4.1. Arquitetura da Solução
 
-Nesta seção, descreva como os componentes do sistema se organizam e interagem.  
-Inclua um **diagrama de arquitetura** mostrando módulos, camadas e tecnologias utilizadas.
+## 4.1 Arquitetura da Solução (Sprint 1 e 2)
 
-**Orientações:**
-- Indique quais módulos compõem a solução (ex.: frontend, backend, banco de dados, APIs externas).
-- Especifique as tecnologias e frameworks adotados (ex.: React, Node.js, MySQL).
-- Explique como ocorre a comunicação entre os módulos.
+Apresente um **diagrama macro** demonstrando como os componentes do sistema se comunicam.
 
-**Exemplo de diagrama:**
+A arquitetura deve refletir o modelo de **fatias verticais**, evidenciando o fluxo:
+
+**Front-end → API (Back-end) → Banco de Dados**
+
+Semelhante à imagem abaixo:
+
+![Exemplo de Arquitetura](https://uds.com.br/blog/wp-content/uploads/2024/09/Imagem-1-Comparativo-ilustrativo-das-diferencas-entre-front-end-e-back-end.jpg)
+
+
+
+ **Fonte:** [Guia Completo de Desenvolvimento de Software - UDS](https://uds.com.br/blog/desenvolvimento-de-software-guia-completo/) <br><br>
  
- ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
-
- 📌 **Entrega:** inserir o diagrama e a descrição detalhada de cada parte.
- 
----
-**MODELAGEM VISUAL DAS TELAS**
-
-## 4.2. Wireframe / Mockup
-
-Wireframe e Mockup são representações visuais das telas de um sistema **antes** do desenvolvimento do código.  
-Eles ajudam a planejar, comunicar ideias e validar a interface com antecedência.
-
-### Finalidade
-- **Planejamento da interface** → organizar elementos (botões, menus, campos, imagens) e definir a estrutura de navegação.  
-- **Comunicação da ideia** → facilitar o diálogo entre desenvolvedores, designers, clientes e usuários.  
-- **Validação antecipada** → coletar feedback antes de investir tempo e recursos na programação.  
-- **Guia para desenvolvimento** → servir como referência visual durante a implementação.
-
-💡 **_Diferença:_**
-- **Wireframe** → simples, sem cores ou imagens detalhadas; foca na estrutura e posicionamento.  
-- **Mockup** → mais próximo do visual final, com cores, fontes e imagens, mas sem interatividade completa.
-
-**Exemplo de wireframe:**
-![Exemplo de Wireframe](images/wireframe-example.png)
-
-📌 **Entrega:** incluir imagens ou links para os wireframes/mockups.
-
-**Wireframe 1 — Tela Principal**  
-*(inserir imagem ou diagrama)*
-
-**Wireframe 2 — Tela de Login**  
-*(inserir imagem ou diagrama)*
+ ### 📎 Inserir o Diagrama de Arquitetura do Projeto do Grupo
+🚨 O grupo deverá inserir aqui a imagem
 
 
 ---
-**UML**
-
-## 4.3 Diagrama de Classes
-
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+🔧**Ferramentas recomendadas:**
+- Draw.io
+- Lucidchart
+- Figma
 
 ---
 
-**BANCO DE DADOS**
+## 4.2 Tecnologias Utilizadas (Sprint 1)
 
-## 4.4. Modelo de Dados
+Descreva as tecnologias, linguagens, frameworks, bibliotecas e serviços escolhidos pelo Squad.
 
-A solução proposta exige um banco de dados capaz de armazenar e relacionar as informações necessárias para os processos mapeados, garantindo integridade e controle de acesso por perfil de usuário.
+| Dimensão | Tecnologia Escolhida |
+|----------|----------------------|
+| Banco de Dados (SGBD) | Ex: SQL Server, PostgreSQL ou MongoDB |
+| Back-end (API) | Ex: C# (.NET Core) |
+| Front-end / Mobile | Ex: HTML + CSS + JavaScript, React ou Flutter |
+| Hospedagem / Deploy | Ex: Azure, AWS, Render ou Railway |
+| Gestão e Versionamento | GitHub e GitHub Projects (Kanban) |
 
-O desenvolvimento deve seguir **três etapas**:
+ ⚠️ **Observação:**
+ - GitHub Pages não executa back-end.
+ - Utilize apenas tecnologias realmente implementadas.
 
 ---
 
-### 4.4.1 Diagrama Entidade-Relacionamento (DER)
+##  4.3 Wireframes ou Mockups (A partir da Sprint 2)
 
-O **Diagrama Entidade-Relacionamento (DER)** descreve as entidades, atributos e relacionamentos do sistema.  
-Utilize a ferramenta **[BR Modelo Web](https://www.brmodeloweb.com/lang/pt-br/index.html)** para criar o diagrama.
+Apresente os protótipos das telas (Wireframes/Mockups) apenas das funcionalidades que estão sendo implementadas na Sprint atual.
 
-**Orientações:**
-- Todas as entidades devem possuir chave primária.
-- Relacionamentos devem estar corretamente cardinalizados.
-- O diagrama deve contemplar todas as funcionalidades levantadas nos processos de negócio.
+Cada Wireframe ou Mockups devem estar associados a pelo menos:
 
-**Exemplo de imagem:**
+- Um Requisito Funcional (RF-XX)
+- Uma História de Usuário
 
-![Diagrama ER - Exemplo](./images/DER.png)
 
-📌 **Entrega:** gere o diagrama no BR Modelo, exporte em **.png** e inclua-o nesta seção.
+## 📌 Exemplo Ilustrativo – Tela de Cadastro (RF-01)
+
+**História associada:** Como usuário, quero criar uma conta para acessar o sistema.
+
+Representação simplificada do Wireframe:
+
+<img src="images/TelaCadastro.png" width="80%">
+
+**Descrição:** A interface contempla todos os campos exigidos pelo RF-01 e permite persistência no banco após validação no backend.
+
+---
+🔧 **Ferramentas sugeridas:**
+- Figma  
+- MarvelApp  
+- Balsamiq  
+---
+
+### 📎 Inserir AQUI Wireframes/ Mockups do Projeto de Software
+
+🚨 O grupo deverá inserir aqui a imagem
+
 
 
 ---
 
-### 4.4.2 Esquema Relacional
+## 4.4 Modelagem de Dados (Sprint 2 e 3)
 
-O **Esquema Relacional** converte o Modelo ER para tabelas relacionais, incluindo chaves primárias, estrangeiras e restrições de integridade.  
-Utilize o **[MySQL Workbench](https://www.mysql.com/products/workbench/)** para gerar o diagrama de tabelas (Modelo Lógico).
+O sistema exige persistência de dados.
 
-**Orientações:**
-- Inclua todos os atributos das entidades.
-- Defina tipos de dados adequados para cada campo.
-- Configure as restrições de integridade (NOT NULL, UNIQUE, FOREIGN KEY, etc.).
-
-📌 **Entrega:** exporte o diagrama do Workbench e adicione a imagem aqui.
-
-**Exemplo de imagem:**
-
-![Esquema Relacional - Exemplo](./images/TabelasBD.png)
+A documentação do banco seguirá a abordagem de **entrega contínua**, sendo expandida conforme evolução do projeto.
 
 ---
 
-### 4.4.3 Modelo Físico
+### 4.4.1 Script Físico (Entrega na Sprint 2 - MVP)
 
-O **Modelo Físico** é o script SQL que cria as tabelas no banco de dados.  
-Este script pode ser gerado automaticamente no MySQL Workbench a partir do esquema relacional.
+Para a primeira fatia vertical (MVP), o Squad deverá entregar o **script de criação das tabelas ou coleções utilizadas**.
+
+#### 🔹 Para Banco Relacional (SQL)
+
+Incluir:
+
+- Comandos `CREATE TABLE`
+- Definição de chave primária (PK)
+- Definição de chaves estrangeiras (FK)
 
 **Exemplo:**
+
 ```sql
-CREATE TABLE Medico (
-    MedCodigo INT PRIMARY KEY,
-    MedNome VARCHAR(100) NOT NULL
-);
-
-CREATE TABLE Paciente (
-    PacCodigo INT PRIMARY KEY,
-    PacNome VARCHAR(100) NOT NULL
-);
-
-CREATE TABLE Consulta (
-    ConCodigo INT PRIMARY KEY,
-    MedCodigo INT,
-    PacCodigo INT,
-    Data DATE,
-    FOREIGN KEY (MedCodigo) REFERENCES Medico(MedCodigo),
-    FOREIGN KEY (PacCodigo) REFERENCES Paciente(PacCodigo)
-);
-
-CREATE TABLE Medicamento (
-    MdcCodigo INT PRIMARY KEY,
-    MdcNome VARCHAR(100) NOT NULL
-);
-
-CREATE TABLE Prescricao (
-    ConCodigo INT,
-    MdcCodigo INT,
-    Posologia VARCHAR(200),
-    PRIMARY KEY (ConCodigo, MdcCodigo),
-    FOREIGN KEY (ConCodigo) REFERENCES Consulta(ConCodigo),
-    FOREIGN KEY (MdcCodigo) REFERENCES Medicamento(MdcCodigo)
+CREATE TABLE Usuario (
+    Id INT PRIMARY KEY,
+    Nome VARCHAR(100),
+    Email VARCHAR(150) UNIQUE,
+    Senha VARCHAR(200)
 );
 ```
-## 📌ATENÇÃO: salvar como banco.sql na pasta src/bd
 
 ---
-### 4.4.4 Banco de Dados NoSQL (Opcional)
 
-> **Atenção:** Preencha esta seção **somente se o seu projeto utilizar Banco de Dados NoSQL**.
+### Para Banco NoSQL
 
-Se o projeto adotar NoSQL, a entrega deve incluir:
+Incluir a estrutura dos documentos JSON (Schema).
 
-#### 1. Modelo de Coleções / Documentos
-- Descreva como os dados serão organizados em **coleções, documentos ou grafos**.  
-
-#### 2. Exemplos de Documentos / Registros
-- Mostre exemplos reais de dados para cada coleção ou entidade.  
+**Exemplo:**
 
 ```json
 {
-  "_id": "1",
-  "nome": "Juliana",
-  "email": "juliana@email.com",
-  "perfil": "admin"
+  "nome": "João Silva",
+  "email": "joao@email.com",
+  "senha": "hash_da_senha"
 }
 ```
-📌 **Entrega:** Inclua aqui os scripts utilizados para criar coleções e inserir dados.
+
+### 📁 Obrigatório
+
+O arquivo .sql ou .js deve ser salvo na pasta: src/bd
+
+ - É permitido colar um trecho do script no README apenas para visualização rápida.
+ 
+---
+### 4.4.2 Representação do Modelo Físico de Dados (Entrega na Sprint 3 - Core)
+
+
+> **Fundamentação:** Os modelos de dados físicos fornecem detalhes minuciosos que auxiliam administradores e desenvolvedores na implementação da lógica de negócios em um banco de dados real.
+> Eles incluem elementos não especificados no modelo lógico, como:
+> - Tipos de dados específicos da plataforma
+> - Restrições
+> - Índices
+> - Triggers (quando aplicável)
+> - Procedimentos armazenados (quando aplicável)
+>
+>Por representarem um banco real, devem respeitar:
+> - Convenções de nomenclatura
+> - Restrições da plataforma
+> - Uso adequado de palavras reservadas <br>
+
+
+**Exemplo:**
+
+<img src="https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2021/11/09/BDB-1321-image005.png" width="85%">
+
+**FONTE:** <https://aws.amazon.com/pt/compare/the-difference-between-logical-and-physical-data-model/>
+
+<br>O grupo deverá gerar um diagrama físico do banco de dados (estrutura real das tabelas), evidenciando PKs, FKs e relacionamentos, conforme implementado no código.
+
+Este modelo deve exibir:
+- Tabelas ou coleções existentes
+- Atributos com seus respectivos tipos de dados
+- Chaves Primárias (PK)
+- Chaves Estrangeiras (FK)
+- Relacionamentos entre tabelas
+- Restrições implementadas (quando aplicável)
+
+---
+
+### 📌 Requisitos Obrigatórios
+
+- O diagrama deve representar fielmente o banco já implementado.
+- Deve refletir exatamente o que foi criado nas Sprints 2 e 3.
+- Não incluir tabelas que não existam no código.
+- Deve contemplar o controle de acesso de usuários, quando implementado.
+- Deve respeitar as convenções e restrições da plataforma utilizada.
+
+---
+
+### 📎 Representação do Modelo Físico de Dados
+🚨 O grupo deverá inserir aqui a imagem do diagrama físico de dados.
+
+---
+🔧**Ferramentas Sugeridas**
+- MySQL Workbench (engenharia reversa automática)
+- DbDesigner
+- Lucidchart
