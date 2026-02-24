@@ -1,17 +1,25 @@
-# REFERÊNCIAS
+# 7. Referências
 
-_Como um projeto de software não requer revisão bibliográfica, a inclusão das referências não é obrigatória. No entanto, caso você deseje incluir referências relacionadas às tecnologias, padrões, ou metodologias que serão usadas no seu trabalho, relacione-as de acordo com a ABNT._
+> ⚠️ **EXIGÊNCIA DA CTO:**
+> - **Todas as referências bibliográficas e técnicas utilizadas ao longo do projeto DEVEM ser informadas nesta seção!**
+> - A transparência é fundamental na nossa *Software House*. Se o seu Squad consultou materiais para embasar o propósito social (ODS), metodologias de interface (SUS), documentações de linguagens, documentação de banco de dados ou qualquer outro material de apoio, **vocês devem listar tudo aqui**. <br>
 
-_Verifique no link abaixo como devem ser as referências no padrão ABNT:_
+<br>Verifique no link abaixo como devem ser formatadas as referências no padrão ABNT da universidade:
+[http://portal.pucminas.br/imagedb/documento/DOC_DSC_NOME_ARQUI20160217102425.pdf](http://portal.pucminas.br/imagedb/documento/DOC_DSC_NOME_ARQUI20160217102425.pdf)
 
-http://portal.pucminas.br/imagedb/documento/DOC_DSC_NOME_ARQUI20160217102425.pdf
+**Exemplos de Referências esperadas para o seu projeto:**
 
-**[1.1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+* **Referência da ODS (Obrigatório):**
+    ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). *Objetivo de Desenvolvimento Sustentável 3: Saúde e Bem-Estar*. Disponível em: <https://brasil.un.org/pt-br/sdgs/3>. Acesso em: 12 mar. 2026.
 
-**[1.2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
+* **Referência de Metodologia/Gestão:**
+    SUTHERLAND, Jeffrey Victor. *Scrum: a arte de fazer o dobro do trabalho na metade do tempo*. 2. ed. São Paulo: Leya, 2016.
 
-**[1.3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
+* **Referência de Usabilidade (UX - Teste SUS):**
+    BROOKE, John. SUS: A 'Quick and Dirty' Usability Scale. In: JORDAN, P. W. et al. *Usability Evaluation in Industry*. Londres: Taylor & Francis, 1996. p. 189-194.
 
-**[1.4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
+* **Documentação Técnica (Frameworks e Banco de Dados):**
+    MICROSOFT. *Documentação do ASP.NET Core*. Disponível em: <https://learn.microsoft.com/pt-br/aspnet/core>. Acesso em: 15 abr. 2026.
+    
+   
 
-**[1.5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
