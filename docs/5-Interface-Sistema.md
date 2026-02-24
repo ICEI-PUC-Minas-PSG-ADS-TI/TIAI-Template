@@ -1,70 +1,51 @@
+
 # 5. Interface do Sistema
 
-<span style="color:red">Pré-requisitos: <a href="4-Gestão-Configuração.md"> Planejamento do Projeto</a></span>
+> ⚠️ **Aviso aos Squads:**
+> Diferente da Seção 4 (onde vocês colocaram os wireframes/Mockups), esta seção é o **Portfólio Visual** do software real. Aqui devem constar apenas as capturas de tela (screenshots) do **sistema já codificado e funcionando**.
+
+Esta seção deve ser atualizada a cada Sprint, servindo como um registro histórico da evolução da interface da aplicação web. <br><br>
+
+
+## 5.1. Galeria de Telas (Por Sprint)
+
+Apresente as imagens reais das telas implementadas, associando-as à funcionalidade (Fatia Vertical) entregue na Sprint correspondente. Descreva brevemente o que cada tela faz.<br><br>
+
+**🟢 Sprint 1: Hello World / Tela Inicial**
+* **Funcionalidade:** Ponto de entrada do sistema e navegação principal.
+* **Descrição:** Tela inicial conectada à API, provando que o fluxo base da aplicação está funcionando.
+* *(Insira a imagem real da tela aqui - ex: `![Tela Home](images/sprint1_home.png)`)* <br><br>
+> 💡 **Importante:** Uma mesma funcionalidade (fatia) pode render **várias telas** (ex: tela de listagem, formulário de cadastro e modal de sucesso). **Coloque prints de todas as etapas do fluxo.** <br><br>
+
+**🟡 Sprint 2: MVP (Primeira Fatia Vertical)**
+* **Funcionalidade:** *(Ex: Cadastro de Cliente e Listagem)*
+* **Descrição:** Formulário interativo que envia os dados para a API e salva com sucesso no Banco de Dados.
+* *(Insira a imagem real da tela aqui - ex: `![Tela Cadastro](images/sprint2_cadastro.png)`)* <br><br>
+> 💡 **Importante:** Uma mesma funcionalidade (fatia) pode render **várias telas** (ex: tela de listagem, formulário de cadastro e modal de sucesso). **Coloque prints de todas as etapas do fluxo.** <br><br>
+
+**🔵 Sprint 3: Core (Regras de Negócio)**
+* **Funcionalidade:** *(Ex: Dashboard de Análise ou Fluxo de Pagamento)*
+* **Descrição:** Interface que demonstra as regras de negócio mais complexas do sistema operando com dados reais do banco.
+* *(Insira a imagem real da tela aqui - ex: `![Tela Core](images/sprint3_core.png)`)* <br><br>
+> 💡 **Importante:** Uma mesma funcionalidade (fatia) pode render **várias telas** (ex: tela de listagem, formulário de cadastro e modal de sucesso). **Coloque prints de todas as etapas do fluxo.** <br><br>
+
+**🔴 Sprint 4: Entrega Final**
+* **Funcionalidade:** Polimento visual e telas secundárias.
+* **Descrição:** Telas finais de relatórios, perfis de usuário, tratamento de erros e refinamento de CSS/UX.
+* *(Insira a imagem real da tela aqui - ex: `![Tela Final](images/sprint4_final.png)`)* <br><br>
+> 💡 **Importante:** Uma mesma funcionalidade (fatia) pode render **várias telas** (ex: tela de listagem, formulário de cadastro e modal de sucesso). **Coloque prints de todas as etapas do fluxo.** <br><br>
+
+> 📸 **Dica:** Certifiquem-se de que as imagens tenham boa resolução e mostrem o sistema rodando no navegador. Salvem todas as imagens na pasta `images/` do repositório.
 
 
 
-## 5.1 Tecnologias Utilizadas
 
-> Liste todas as tecnologias utilizadas no projeto, com justificativas breves para cada escolha.  
-> Este quadro deve ser atualizado sempre que novas ferramentas forem adicionadas ou substituídas.
 
-| Categoria             | Tecnologia/Ferramenta | Justificativa de uso |
-|-----------------------|------------------------|----------------------|
-| Linguagem             | JavaScript             | Implementação das funcionalidades do front-end. |
-| Framework Front-end   | React.js               | Criação de interfaces dinâmicas e reutilizáveis. |
-| Banco de Dados        | MySQL                  | Armazenamento e gerenciamento de dados. |
-| Ferramenta de Design  | Figma                  | Criação de protótipos e wireframes. |
-| IDE                   | VS Code                | Ambiente principal de desenvolvimento. |
 
----
 
-## 5.2 Acompanhamento das Interfaces do Sistema
 
-> Esta seção deve funcionar como **registro contínuo do progresso** do projeto.  
-> Inclua sempre **descrição**, **status**, **data de atualização** e **imagem real** da tela.
 
-### 📋 Quadro de Progresso das Telas
 
-| Requisito/Tela                | Status | Última atualização | Próxima entrega |
-|--------------------------------|--------|--------------------|-----------------|
-| Tela principal                 | 🟢 Concluída     | 10/08/2025         | -               |
-| Tela de login                  | 🟡 Em andamento | 09/08/2025         | 15/08/2025      |
-| Tela de cadastro de produto    | 🔴 Não iniciada | -                  | 20/08/2025      |
 
-Legenda: 🟢 Concluído | 🟡 Em andamento | 🔴 Não iniciado
 
----
-
-### 5.3 Registro Visual das Telas
-
-#### 5.3.1 Tela principal do sistema
-**Descrição:** Apresenta visão geral das funcionalidades e acessos principais.  
-[`Tela principal do sistema`](images/)
-
----
-
-#### 5.3.2 Tela de login
-**Descrição:** Permite acesso de usuários registrados.  
-[`Tela de login`](images/)
-
----
-
-#### 5.3.3 Tela de cadastro de produto
-**Descrição:** Formulário para inserir novos produtos no estoque.  
-[`Tela de cadastro`](images/)
-
----
-
-> **📢 AVISO IMPORTANTE – ATUALIZAÇÃO DE PROGRESSO**  
-> *(leia com atenção antes de finalizar a sprint)*  
->
-> 1. **Ao final de cada sprint**, atualizar o quadro de progresso com:  
->    - Status da tela (🟢, 🟡 ou 🔴)  
->    - Data da última modificação  
->    - Próxima previsão de entrega  
-> 2. Adicionar **imagens reais** das telas desenvolvidas no diretório `images/`.  
-> 3. Descrever brevemente as funcionalidades implementadas ou mudanças feitas desde a última atualização.  
->
-> 📌 **Objetivo**: Permitir que o professor visualize rapidamente **o que já foi entregue, o que está em andamento e o que ainda falta desenvolver**, garantindo acompanhamento eficaz do projeto.
 
