@@ -1,176 +1,59 @@
-# 2. Planejamento do Projeto
+# 2. Cronograma e Gestão de Papéis por Sprint
 
-Esta seção apresenta como o grupo organizará o trabalho ao longo do semestre.  
-O projeto adota uma metodologia ágil, simulando o ambiente de uma Software House.
+Nesta seção, a equipe fará o gerenciamento das tarefas e sprints utilizando o **GitHub Projects**. O controle de progresso, prazos e o status das entregas ficam centralizados no quadro Kanban da ferramenta, alinhando o desenvolvimento prático do software às etapas da documentação.
 
----
-
-### 🚨 Regra de Ouro: 
-
-> ❗Não existe divisão entre “quem faz documento”, “quem faz Front-end” e “quem faz Back-end”.
-
-<br>Todos os integrantes são **Desenvolvedores Full-Stack** e devem implementar **Fatias Verticais (Vertical Slices)**.
-
-✔️ Cada membro deve entregar a funcionalidade completa:  
-**Banco de Dados → API → Tela**
+> **Regra de Organização:** Para cada Sprint, deverá ser criado um Project separado no GitHub, devendo ser nomeados rigidamente como **Sprint 1**, **Sprint 2** e assim sucessivamente.
+> 
+> **Nota sobre o Desenvolvimento:** Neste projeto, **não haverá separação rígida entre desenvolvedores Front-end e Back-end**. Todos os integrantes atuarão como **Full-stack**, o que significa que o aluno responsável por pegar uma funcionalidade (História de Usuário / Requisito Funcional) deverá acompanhá-la e desenvolvê-la do início ao fim — contemplando tanto a persistência/banco de dados quanto a lógica de negócio e a interface de tela.
 
 ---
 
-# 2.1 Sprints do Projeto
+## 2.1. Divisão de Papéis por Sprint
+Apresente a divisão de papéis entre os membros do grupo em cada sprint. Como a equipe atua de forma Full-stack no desenvolvimento, os papéis alternam-se entre a liderança ágil, a modelagem de processos, a engenharia de dados e a codificação ponta a ponta.
 
-O projeto será realizado em **4 Sprints**, com entregas contínuas de código e documentação.
+* 📋**Sprint 1 (Foco: Hello World + Visão do Produto)**
+  * **Tech Lead & Arquiteto de Software:** Aluno X
+  * **Arquiteto de Dados & DBA:** Aluno Y
+  * **Desenvolvedor Full-stack & Especialista Técnico:** Aluno Z
+  * **Facilitador Ágil (Scrum Master):** Aluno T
+  * **Gerente de Qualidade (QA & Testes):** Aluno R
 
----
+> *Caso ocorram realinhamentos estratégicos nas próximas Sprints, a distribuição de liderança poderá ser revisada e atualizada neste documento.*
 
-## 📅 Visão Geral
+* 🔀**Sprint 2 (Foco: MVP)**
+   * **Tech Lead & Arquiteto de Software:** Aluno X
+   * **Arquiteto de Dados & DBA:** Aluno Y
+   * **Desenvolvedor Full-stack & Especialista Técnico:** Aluno Z
+   * **Facilitador Ágil (Scrum Master):** Aluno T
+   * **Gerente de Qualidade (QA & Testes):** Aluno R
 
-### 🟢 Sprint 1 – Setup, Hello World e Visão do Produto
-- README com descrição do projeto
-- ODS escolhida
-- Backlog macro
-- Repositório criado
-- Banco de dados instanciado (vazio)
-- Tela "Hello World" conectada à API
+* 🗄️**Sprint 3 (Foco: Regras de Negócio)**
+  * **Tech Lead & Arquiteto de Software:** Aluno X
+  * **Arquiteto de Dados & DBA:** Aluno Y
+  * **Desenvolvedor Full-stack & Especialista Técnico:** Aluno Z
+  * **Facilitador Ágil (Scrum Master):** Aluno T
+  * **Gerente de Qualidade (QA & Testes):** Aluno R
+   
 
----
-
-### 🟡 Sprint 2 – MVP (Primeira Fatia Vertical)
-- Requisitos Funcionais documentados
-- Script do Banco de Dados
-- 1ª funcionalidade completa funcionando
-- Dados sendo salvos no banco
-
-⚠️ Se não salvar no banco, não pontua.
-
----
-
-### 🔵 Sprint 3 – Core e Regras de Negócio
-- Implementação das regras de negócio
-- Validações no backend
-- DER atualizado via Engenharia Reversa
-- Diagrama de Classes atualizado
-
----
-
-### 🔴 Sprint 4 – Finalização e Deploy
-- Correção de bugs
-- Testes finais ponta a ponta
-- Documentação final consolidada
-- Relatório preenchido no APC
-- Sistema pronto para Arguição
+* 🏆**Sprint 4 (Foco: Conclusão da Ferramenta e Apresentação Final)**
+  * **Tech Lead & Arquiteto de Software:** Aluno X
+  * **Arquiteto de Dados & DBA:** Aluno Y
+  * **Desenvolvedor Full-stack & Especialista Técnico:** Aluno Z
+  * **Facilitador Ágil (Scrum Master):** Aluno T
+  * **Gerente de Qualidade (QA & Testes):** Aluno R
 
 ---
 
-# 👥 Papéis de Gestão
+## 2.2. Quadros de Tarefas (Kanban no GitHub Projects)
+O acompanhamento detalhado das Histórias de Usuário, subtarefas e responsáveis por cada Sprint é feito de forma automatizada nos painéis oficiais do **GitHub Projects** da equipe.
 
-Todos programam.  
-Os papéis abaixo são apenas para organização do time.
-
-- 👨‍💻 **Tech Lead (Git Master)**  
-  Responsável pelo repositório e merges.
-
-- 🗄️ **Arquiteto de Dados (DBA Guard)**  
-  Responsável pela modelagem e padronização do banco.
-
-- 🧪 **Gerente de Qualidade (QA & Code Reviewer)**  
-  Responsável por revisar código e validar testes.
-
-- 📋 **Facilitador Ágil (PO / Scrum Master)**  
-  Responsável por prazos, Kanban e priorização do backlog.
+> ✏️ **[Atenção aluno: Insira abaixo os links públicos dos quadros do GitHub Projects correspondentes a cada Sprint]**
+> 
+> * **Sprint 1:** [Acesse o Quadro da Sprint 1 aqui](https://github.com/orgs/seu-grupo/projects/1)
+> * **Sprint 2:** [Acesse o Quadro da Sprint 2 aqui](https://github.com/orgs/seu-grupo/projects/2)
+> * **Sprint 3:** [Acesse o Quadro da Sprint 3 aqui](https://github.com/orgs/seu-grupo/projects/3)
+> * **Sprint 4:** [Acesse o Quadro da Sprint 4 aqui](https://github.com/orgs/seu-grupo/projects/4)
 
 ---
 
-##  Definição dos Papéis – Sprint 1
 
-- 👨‍💻 Tech Lead:
-- 🗄️ Arquiteto de Dados:
-- 🧪 Gerente de Qualidade:
-- 📋 Facilitador Ágil:
-
-> Caso os papéis mudem nas próximas Sprints, atualizar neste documento.
-
----
-
-# 2.2 Execução e Controle
-
-## 🗂️ Kanban (OBRIGATÓRIO)
-
-O projeto deve utilizar a aba **Projects** do GitHub.
-
-### Estrutura obrigatória do Board:
-
-- A Fazer
-- Desenvolver
-- Fila para Teste
-- Teste
-- Feito
-
-### Regras
-
-- Cada cartão deve representar uma Fatia Vertical.
-- Todo cartão deve conter:
-  - Responsável
-  - Descrição
-  - Prazo
-- A avaliação individual considerará:
-  - Histórico de commits
-  - Movimentação no Kanban
-
-⚠️ Se não está no Git, não foi feito.
-
----
-
-# 📋 Acompanhamento das Sprints
-
-## Legenda de Status
-
-- [x] ✔️ Concluído
-- [ ] 📝 Em andamento
-- [ ] ⌛ Atrasado
-- [ ] ❌ Não iniciado
-
----
-
-# 🟢 Sprint 1 – Setup
-
-| Responsável | Papel | Tarefa | Início | Prazo | Status |
-|-------------|--------|--------|--------|--------|--------|
-|             |        | Preencher Visão do Produto, ODS e Backlog no README | 12/03 | 15/03 | ❌ |
-|             |        | Criar instância do Banco de Dados | 12/03 | 16/03 | ❌ |
-|             |        | Criar repositório e estruturar pastas | 12/03 | 18/03 | ❌ |
-|             |        | Criar tela Hello World conectada à API | 15/03 | 20/03 | ❌ |
-
----
-
-# 🟡 Sprint 2 – MVP
-
-| Responsável | Papel | Tarefa | Início | Prazo | Status |
-|-------------|--------|--------|--------|--------|--------|
-|             |        | Gerar Script do Banco de Dados | 21/03 | 24/03 | ❌ |
-|             |        | Desenvolver Fatia 1 (BD + API + Tela) | 22/03 | 30/03 | ❌ |
-|             |        | Documentar Requisitos do MVP | 25/03 | 02/04 | ❌ |
-|             |        | Revisão técnica e Merge | 02/04 | 05/04 | ❌ |
-
----
-
-# 🔵 Sprint 3 – Core
-
-| Responsável | Papel | Tarefa | Início | Prazo | Status |
-|-------------|--------|--------|--------|--------|--------|
-|             |        | Implementar Regra de Negócio Y | 06/04 | 15/04 | ❌ |
-|             |        | Implementar Cálculo/Processo Z | 06/04 | 15/04 | ❌ |
-|             |        | Atualizar DER via Engenharia Reversa | 16/04 | 20/04 | ❌ |
-|             |        | Atualizar Diagrama de Classes | 16/04 | 23/04 | ❌ |
-
----
-
-# 🔴 Sprint 4 – Finalização
-
-| Responsável | Papel | Tarefa | Início | Prazo | Status |
-|-------------|--------|--------|--------|--------|--------|
-|             |        | Correção de bugs | 22/05 | 05/06 | ❌ |
-|             |        | Finalizar relatórios e dashboards | 01/06 | 15/06 | ❌ |
-|             |        | Preencher Relatório APC | 10/06 | 20/06 | ❌ |
-|             |        | Testes finais e consolidar README | 15/06 | 25/06 | ❌ |
-
----
