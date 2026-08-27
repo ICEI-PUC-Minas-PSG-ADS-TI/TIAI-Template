@@ -12,6 +12,7 @@ Nesta seção, a equipe fará o gerenciamento das tarefas e sprints utilizando o
 Apresente a divisão de papéis entre os membros do grupo em cada sprint. Como a equipe atua de forma Full-stack no desenvolvimento, os papéis alternam-se entre a liderança ágil, a modelagem de processos, a engenharia de dados e a codificação ponta a ponta.
 
 * 📋**Sprint 1 (Foco: Hello World + Visão do Produto)**
+  
   * **Tech Lead & Arquiteto de Software:** Aluno X
   * **Arquiteto de Dados & DBA:** Aluno Y
   * **Desenvolvedor Full-stack & Especialista Técnico:** Aluno Z
